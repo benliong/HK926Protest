@@ -123,6 +123,7 @@
 		AD42C4A919B8E53300D191CE /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD42C4A819B8E53300D191CE /* CFNetwork.framework */; };
 		AD42C4AB19B8E53900D191CE /* MultipeerConnectivity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD42C4AA19B8E53900D191CE /* MultipeerConnectivity.framework */; };
 		AD42C4AD19B8E54500D191CE /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD42C4AC19B8E54500D191CE /* Security.framework */; };
+		DFC5BD8019D94FCB00E11B0E /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = DFC5BD8219D94FCB00E11B0E /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -274,6 +275,18 @@
 		AD42C4A819B8E53300D191CE /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		AD42C4AA19B8E53900D191CE /* MultipeerConnectivity.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MultipeerConnectivity.framework; path = System/Library/Frameworks/MultipeerConnectivity.framework; sourceTree = SDKROOT; };
 		AD42C4AC19B8E54500D191CE /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		DFC5BD7619D94C2A00E11B0E /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		DFC5BD7719D94C2A00E11B0E /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Main_iPhone.strings"; sourceTree = "<group>"; };
+		DFC5BD7819D94C2A00E11B0E /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Main_iPad.strings"; sourceTree = "<group>"; };
+		DFC5BD7919D94C2A00E11B0E /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		DFC5BD7A19D94C2F00E11B0E /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main_iPhone.strings"; sourceTree = "<group>"; };
+		DFC5BD7B19D94C2F00E11B0E /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main_iPad.strings"; sourceTree = "<group>"; };
+		DFC5BD7C19D94C2F00E11B0E /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		DFC5BD7D19D94C2F00E11B0E /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		DFC5BD8119D94FCB00E11B0E /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		DFC5BD8319D94FD100E11B0E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		DFC5BD8419D94FD100E11B0E /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		DFC5BD8519D94FD100E11B0E /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -365,6 +378,7 @@
 				AD42C37819B62BF200D191CE /* InfoPlist.strings */,
 				AD42C37B19B62BF200D191CE /* main.m */,
 				AD42C37D19B62BF200D191CE /* Protest-Prefix.pch */,
+				DFC5BD8219D94FCB00E11B0E /* Localizable.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -624,6 +638,8 @@
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hant",
+				"zh-Hans",
 			);
 			mainGroup = AD42C36319B62BF200D191CE;
 			productRefGroup = AD42C36D19B62BF200D191CE /* Products */;
@@ -663,6 +679,7 @@
 				AD42C44B19B62CFE00D191CE /* exitbutton@2x.png in Resources */,
 				AD42C41B19B62CFE00D191CE /* addbutton@2x.png in Resources */,
 				AD42C42119B62CFE00D191CE /* icon11@2x.png in Resources */,
+				DFC5BD8019D94FCB00E11B0E /* Localizable.strings in Resources */,
 				AD42C45D19B62CFE00D191CE /* AppIcon57x57@2x.png in Resources */,
 				AD42C43219B62CFE00D191CE /* icon27@2x.png in Resources */,
 				AD42C43E19B62CFE00D191CE /* icon38@2x.png in Resources */,
@@ -789,6 +806,8 @@
 			isa = PBXVariantGroup;
 			children = (
 				AD42C37919B62BF200D191CE /* en */,
+				DFC5BD7619D94C2A00E11B0E /* zh-Hant */,
+				DFC5BD7C19D94C2F00E11B0E /* zh-Hans */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -797,6 +816,8 @@
 			isa = PBXVariantGroup;
 			children = (
 				AD42C38219B62BF200D191CE /* Base */,
+				DFC5BD7719D94C2A00E11B0E /* zh-Hant */,
+				DFC5BD7A19D94C2F00E11B0E /* zh-Hans */,
 			);
 			name = Main_iPhone.storyboard;
 			sourceTree = "<group>";
@@ -805,6 +826,8 @@
 			isa = PBXVariantGroup;
 			children = (
 				AD42C38519B62BF200D191CE /* Base */,
+				DFC5BD7819D94C2A00E11B0E /* zh-Hant */,
+				DFC5BD7B19D94C2F00E11B0E /* zh-Hans */,
 			);
 			name = Main_iPad.storyboard;
 			sourceTree = "<group>";
@@ -813,8 +836,21 @@
 			isa = PBXVariantGroup;
 			children = (
 				AD42C39B19B62BF200D191CE /* en */,
+				DFC5BD7919D94C2A00E11B0E /* zh-Hant */,
+				DFC5BD7D19D94C2F00E11B0E /* zh-Hans */,
 			);
 			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DFC5BD8219D94FCB00E11B0E /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DFC5BD8119D94FCB00E11B0E /* Base */,
+				DFC5BD8319D94FD100E11B0E /* en */,
+				DFC5BD8419D94FD100E11B0E /* zh-Hant */,
+				DFC5BD8519D94FD100E11B0E /* zh-Hans */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

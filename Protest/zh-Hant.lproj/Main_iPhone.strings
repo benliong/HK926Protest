@@ -1,0 +1,12 @@
+
+/* Class = "IBUILabel"; text = "Password (optional)"; ObjectID = "Rot-Ks-QsU"; */
+"Rot-Ks-QsU.text" = "密碼 (非必要)";
+
+/* Class = "IBUIButton"; normalTitle = "Start Protest"; ObjectID = "Vad-Wz-hJP"; */
+"Vad-Wz-hJP.normalTitle" = "開始公民抗命";
+
+/* Class = "IBUILabel"; text = "Name of Protest"; ObjectID = "bqA-on-5Xs"; */
+"bqA-on-5Xs.text" = "抗爭名字";
+
+/* Class = "IBUITextField"; placeholder = "No password..."; ObjectID = "lgq-ny-3TN"; */
+"lgq-ny-3TN.placeholder" = "沒有密碼...";

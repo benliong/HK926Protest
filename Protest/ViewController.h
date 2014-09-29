@@ -18,5 +18,6 @@
 
 @property (nonatomic, strong) UIButton *startProtestButton;
 @property (strong, nonatomic) IBOutlet UITableView *tableView;
+@property (nonatomic, assign) IBOutlet UILabel *titleLabel;
 
 @end

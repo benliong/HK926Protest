@@ -1,0 +1,12 @@
+/* 
+  Localizable.strings
+  Protest
+
+  Created by Ben Liong on 29/9/14.
+  Copyright (c) 2014 metacupcake. All rights reserved.
+*/
+"hk928.title" = "HK928 公民抗命";
+"app.title" = "HK928 公民抗命";
+"app.startProtest.button.title" = "Start Protest";
+"chat.emptyChatRoom.title" = "暂时没有人在此讨论区";
+"chat.sendButton.title" = "送出";

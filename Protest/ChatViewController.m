@@ -50,7 +50,7 @@
     [self.view addSubview:_spinner]; // spinner is not visible until started
     [_spinner startAnimating];
     
-    _warningMessage = [[Message alloc] initWithMessage:@"There's no one else in the chat right now." uID:@"41" fromLeader:NO];
+    _warningMessage = [[Message alloc] initWithMessage:NSLocalizedString(@"chat.emptyChatRoom.title", nil) uID:@"41" fromLeader:NO];
     [_avatarForUser setValue:[NSNumber numberWithInt:41] forKey:_warningMessage.uId];
     
     [self registerForKeyboardNotifications];
@@ -72,7 +72,7 @@
     
     _sendButton = [UIButton buttonWithType:UIButtonTypeRoundedRect];
     _sendButton.autoresizingMask = UIViewAutoresizingFlexibleLeftMargin;
-    [_sendButton setTitle:@"Send" forState:UIControlStateNormal];
+    [_sendButton setTitle:NSLocalizedString(@"chat.sendButton.title", nil) forState:UIControlStateNormal];
     _sendButton.frame = CGRectMake(_toolBar.bounds.size.width - 68.0f,
                                    6.0f,
                                    58.0f,

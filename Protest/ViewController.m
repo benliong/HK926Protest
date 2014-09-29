@@ -44,23 +44,38 @@
 - (void)viewDidLoad
 {
     //[[ConnectionManager shared] setupSocket];
+    self.title = NSLocalizedString(@"app.title", nil);
+    self.titleLabel.text = NSLocalizedString(@"app.title", nil);
     
     [UIApplication sharedApplication].idleTimerDisabled = YES;
     
     [[ConnectionManager shared] searchForProtests];
     
     tableSource = [NSMutableArray array];
-    Protest *sampleProt = [[Protest alloc] initWithName:@"Tahrir Square Allstars" passwordNeeded:YES andHealth:1];
+    Protest *sampleProt = [[Protest alloc] initWithName:NSLocalizedString(@"hk928.title", nil) passwordNeeded:YES andHealth:1];
     [tableSource addObject:sampleProt];
     [_tableView reloadData];
     //other sample protest names: @"John/Yoko Bed-in", @"Prague Spring Breakers"
     
     _startProtestButton = [UIButton buttonWithType:UIButtonTypeCustom];
-    _startProtestButton.titleLabel.text = @"";
+    _startProtestButton.titleLabel.text = NSLocalizedString(@"app.startProtest.button.title", nil);
+    _startProtestButton.titleLabel.textColor = [UIColor grayColor];
     _startProtestButton.frame = CGRectMake(0, ([tableSource count] * 55) + 94, 320, 46);
     [_startProtestButton addTarget:self action:@selector(startProtest) forControlEvents:UIControlEventTouchUpInside];
     [_startProtestButton setBackgroundImage:[UIImage imageNamed:@"addbutton.png"]
                                    forState:UIControlStateNormal];
+    [_startProtestButton setTitle:NSLocalizedString(@"app.startProtest.button.title", nil) forState:UIControlStateNormal];
+    [_startProtestButton setTitle:NSLocalizedString(@"app.startProtest.button.title", nil) forState:UIControlStateSelected];
+    [_startProtestButton setTitle:NSLocalizedString(@"app.startProtest.button.title", nil) forState:UIControlStateDisabled];
+    [_startProtestButton setTitle:NSLocalizedString(@"app.startProtest.button.title", nil) forState:UIControlStateHighlighted];
+    [_startProtestButton setTitle:NSLocalizedString(@"app.startProtest.button.title", nil) forState:UIControlStateReserved];
+    [_startProtestButton setTitleColor:[UIColor grayColor] forState:UIControlStateNormal];
+    [_startProtestButton setTitleColor:[UIColor grayColor] forState:UIControlStateSelected];
+    [_startProtestButton setTitleColor:[UIColor grayColor] forState:UIControlStateDisabled];
+    [_startProtestButton setTitleColor:[UIColor grayColor] forState:UIControlStateHighlighted];
+    [_startProtestButton setTitleColor:[UIColor grayColor] forState:UIControlStateReserved];
+
+
     [self.view addSubview:_startProtestButton];
     self.view.backgroundColor = [UIColor colorWithRed:0.945 green:0.941 blue:0.918 alpha:1];
     
