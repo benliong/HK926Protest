@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>F7686AC4-792F-4F8D-93E6-21CE7A452B08</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Protest</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>738970FE71FAE2B59D855F916E42298792BB7B53</key>
+		<string>https://github.com/jackflips/Protest.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Protest.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>738970FE71FAE2B59D855F916E42298792BB7B53</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/jackflips/Protest.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>738970FE71FAE2B59D855F916E42298792BB7B53</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>738970FE71FAE2B59D855F916E42298792BB7B53</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Protest</string>
+		</dict>
+	</array>
+</dict>
+</plist>
